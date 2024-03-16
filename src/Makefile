@@ -92,10 +92,10 @@ endif
 ifeq ($(PRODUCTION),1)
 VERSION_TAG             := $(PRODUCTION_VERSION)
 else
-VERSION_TAG             := $(shell git describe --tags --dirty=+ || echo $(PRODUCTION_VERSION))
+VERSION_TAG             := $(shell git describe --tags --dirty=+ || echo $(PRODUCTION_VERSION))_cyclone
 endif # PRODUCTION
 
-VERSION_PURE            := $(shell echo "$(VERSION_TAG)" | $(SED) 's/.*v\([\.0-9]*\).*/\1/')
+VERSION_PURE            := $(shell echo "$(VERSION_TAG)" | $(SED) 's/.*v\([\.0-9]*\).*/\1/')_cyclone
 
 ##
 ## Installation paths
