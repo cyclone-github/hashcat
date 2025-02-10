@@ -257,7 +257,10 @@ GeForce_RTX_4070_Ti                             ALIAS_nv_sm50_or_higher
 GeForce_RTX_4080                                ALIAS_nv_sm50_or_higher
 GeForce_RTX_4090                                ALIAS_nv_sm50_or_higher
 
-
+GeForce_RTX_5070                                ALIAS_nv_sm50_or_higher
+GeForce_RTX_5070_Ti                             ALIAS_nv_sm50_or_higher
+GeForce_RTX_5080                                ALIAS_nv_sm50_or_higher
+GeForce_RTX_5090                                ALIAS_nv_sm50_or_higher
 
 ##
 ## Unmapped GPU
